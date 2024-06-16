@@ -45,7 +45,7 @@ const Award = () => {
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
-                    <div data-aos="zoom-in-right" className="px-4 py-5 flex-auto hover:bg-slate-200 hover:scale-105 transition-all duration-300">
+                    <div data-aos="zoom-in-right" className="px-4 py-5 flex-auto rounded-md hover:bg-slate-200 hover:scale-105 transition-all duration-300">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <GiPodiumSecond className="w-6 h-6" />
                       </div>
@@ -55,7 +55,7 @@ const Award = () => {
                       </p>
                     </div>
                   </div>
-                  <div data-aos="zoom-in-right" className="relative flex flex-col min-w-0 hover:bg-slate-200 hover:scale-105 transition-all duration-300">
+                  <div data-aos="zoom-in-right" className="relative flex flex-col min-w-0 rounded-md hover:bg-slate-200 hover:scale-105 transition-all duration-300">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <FaHandsBubbles className="w-6 h-6" />
@@ -75,7 +75,7 @@ const Award = () => {
                       <p className="mb-4 text-blueGray-500"> Best Speaker of Speech Competition Organized by International School Award (ISA)</p>
                     </div>
                   </div>
-                  <div data-aos="zoom-in-left" aos-data-duration="1000" className="relative flex flex-col min-w-0 hover:bg-slate-200 hover:scale-105 transition-all duration-300">
+                  <div data-aos="zoom-in-left" aos-data-duration="1000" className="relative flex flex-col min-w-0 rounded-md hover:bg-slate-200 hover:scale-105 transition-all duration-300">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <FaHandsBubbles className="w-6 h-6" />
