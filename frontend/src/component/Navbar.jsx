@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../../public/JPG_manish_High.png";
-import img2 from "../../public/JPG_manish_Low.png";
+
+import img2 from "../../public/JPG_manish_circle.png";
 import { MdOutlineMenu } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
