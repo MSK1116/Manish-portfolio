@@ -42,16 +42,24 @@ const Home_banner = () => {
                 <h1 className="font-bold md:text-left text-center">Reach me on:</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <FaFacebook id="facebook" data-aos="fade-right" data-aos-delay="300" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    <a target="blank" href="https://www.facebook.com/manu0519/">
+                      <FaFacebook id="facebook" data-aos="fade-right" data-aos-delay="300" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    </a>
                   </li>
                   <li>
-                    <FaLinkedin id="linkedin" data-aos="fade-right" data-aos-delay="200" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    <a target="blank" href="https://www.linkedin.com/in/manu0519/">
+                      <FaLinkedin id="linkedin" data-aos="fade-right" data-aos-delay="200" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />{" "}
+                    </a>
                   </li>
                   <li>
-                    <FaSquareInstagram id="insta" data-aos="fade-right" data-aos-delay="100" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    <a target="blank" href="https://www.instagram.com/manu200694/">
+                      <FaSquareInstagram id="insta" data-aos="fade-right" data-aos-delay="100" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    </a>
                   </li>
                   <li>
-                    <FaSquareWhatsapp id="whatsapp" data-aos="fade-right" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    <a target="blank" href="https://wa.me/9779812055778?text=I%20visited%20your%20website%20and%20looking%20to%20get%20connected">
+                      <FaSquareWhatsapp id="whatsapp" data-aos="fade-right" className="text-2xl cursor-pointer hover:text-black transition-all duration-300 hover:scale-105 rounded-full" />
+                    </a>
                   </li>
                 </ul>
               </div>
