@@ -12,6 +12,7 @@ const Home = () => {
       <Home_banner />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 };
