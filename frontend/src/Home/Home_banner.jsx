@@ -90,6 +90,7 @@ const Home_banner = () => {
         </div>
       </div>
       <br />
+      <br></br>
       <hr />
     </>
   );
