@@ -70,6 +70,14 @@ const About = () => {
                       <p>
                         Founding Director <br></br> Everest TechSo Network (ETN)
                       </p>
+                      <hr></hr>
+                      <p>
+                        Website Devloper at <br> Gamvir Samudra Setu Secondary School- Imadol, Lalitpur </br>{" "}
+                      </p>
+                      <hr></hr>
+                      <p>
+                        Chief Committee Head <br></br> Think Big - Dhanusha, Nepal
+                      </p>
                     </div>
                   </div>
                 </div>
