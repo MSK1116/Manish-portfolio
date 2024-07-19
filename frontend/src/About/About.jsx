@@ -72,7 +72,7 @@ const About = () => {
                       </p>
                       <hr></hr>
                       <p>
-                        Website Devloper at <br> Gamvir Samudra Setu Secondary School- Imadol, Lalitpur </br>{" "}
+                        Website Devloper at <br></br> Gamvir Samudra Setu Secondary School- Imadol, Lalitpur{" "}
                       </p>
                       <hr></hr>
                       <p>
