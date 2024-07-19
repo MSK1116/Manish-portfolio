@@ -60,7 +60,7 @@ const About = () => {
                     <h1 className="text-2xl font-semibold text-gray-700 capitalize ">Experience</h1>
                     <div className="space-y-4">
                       <p>
-                        Chief Project Manager<br></br> The Scientific Circle-CCRC, Kathmnadu
+                        Research & Devlopment Head<br></br> The Scientific Circle-CCRC, Kathmnadu
                       </p>
                       <hr></hr>
                       <p>
