@@ -189,6 +189,7 @@ const Contact = () => {
                         <circle cx="87.514" cy="3.445" r="2.719" />
                       </g>
                       <g transform="translate(0 12)">
+                        {/* sa */}
                         <circle cx="3.261" cy="3.525" r="2.72" />
                         <circle cx="15.296" cy="3.525" r="2.719" />
                         <circle cx="27.333" cy="3.525" r="2.72" />
