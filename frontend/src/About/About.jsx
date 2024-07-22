@@ -44,7 +44,7 @@ const About = () => {
                         </p>
                         <hr></hr>
                         <p>
-                          8 th : Basic Level Examination (BLE) <br></br> GPA: 3.21 <br></br> Gamvir Samudra Setu Secondary School- Imadol, Lalitpur
+                          8 th : Basic Level Examination (BLE) <br></br> GPA: 3.24 <br></br> Gamvir Samudra Setu Secondary School- Imadol, Lalitpur
                         </p>
                       </div>
                     </ul>
