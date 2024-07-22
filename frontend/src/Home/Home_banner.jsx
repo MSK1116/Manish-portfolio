@@ -85,7 +85,7 @@ const Home_banner = () => {
           </div>
           <div data-aos="zoom-out-left" data-aos-duration="1000" className="md:w-1/2 md:ml-48 mt-10 md:mt-16 order-1 md:order-2 ">
             <div className="  ">
-              <img className=" object-cover rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]" src={img3}></img>
+              <img className="object-cover rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]" src={img3}></img>
             </div>
           </div>
         </div>
