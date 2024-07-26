@@ -9,6 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dir2" element={<Linker />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </>
   );
