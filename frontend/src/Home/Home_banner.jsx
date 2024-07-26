@@ -12,6 +12,7 @@ import { ReactTyped } from "react-typed";
 import img1 from "../../public/JPG_manish_High.png";
 import img2 from "../../public/JPG_manish_Low.png";
 import img3 from "../../public/IMG_20240721_184859.png";
+import img4 from "../../public/MSK.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -85,7 +86,7 @@ const Home_banner = () => {
           </div>
           <div data-aos="zoom-out-left" data-aos-duration="1000" className="md:w-1/2 md:ml-48 mt-10 md:mt-16 order-1 md:order-2 ">
             <div className="  ">
-              <img loading="lazy" className="object-cover rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]" src={img3}></img>
+              <img loading="lazy" className="object-cover rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]" src={img4}></img>
             </div>
           </div>
         </div>
