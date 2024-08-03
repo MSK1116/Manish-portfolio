@@ -36,7 +36,7 @@ const About = () => {
                     <ul className="flex flex-col mr-4">
                       <div className=" space-y-4 ">
                         <p className="">
-                          +2 Science: School Leaving Certificate (SLC) <br></br> GPA:- 11th:3.73 & 12th: 😢 <br></br> National Examination Board (NEB), 2080BS <br></br>Capital College & Research Center (CCRC)-Balkumari, KTM
+                          +2 Science: School Leaving Certificate (SLC) <br></br> GPA:- 11th:3.73 & 12th: 3.65 <br></br> National Examination Board (NEB), 2080BS <br></br>Capital College & Research Center (CCRC)-Balkumari, KTM
                         </p>
                         <hr></hr>
                         <p>
