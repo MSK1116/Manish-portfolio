@@ -16,6 +16,8 @@ import img4 from "../../public/MSK.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+// checking comment
+
 const Home_banner = () => {
   useEffect(() => {
     Aos.init();
