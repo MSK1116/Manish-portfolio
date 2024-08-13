@@ -36,8 +36,8 @@ const Home_banner = () => {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Balancing the demands of being a student, researcher, web developer, social activist, and photographer, I strive to make a difference through education, technology and my passion. My passion for exploring new things extends beyond the
-              classroom, and I am committed to making a positive impact through my organization for the welfare of society.”
+              Balancing the demands of being a student, web developer, social activist, and photographer, I strive to make a difference through education, technology and my passion. My passion for exploring new things extends beyond the classroom,
+              and I am committed to making a positive impact through my organization for the welfare of society.”
             </p>
             <br />
             {/* social media icon */}
