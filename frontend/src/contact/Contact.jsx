@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-
+import { BsFiletypePdf } from "react-icons/bs";
+import pdf from "/manishcs3.pdf";
 import Aos from "aos";
 import Svg_study_time from "../SVG/Svg_study_time";
 
@@ -10,6 +11,16 @@ const Contact = () => {
   return (
     <>
       <div name="contact" className="bg-white relative lg:py-20">
+        <div className="flex justify-center items-center">
+          <a
+            target="blank"
+            href={pdf}
+            className="w-auto flex flex-row cursor-pointer pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-indigo-500
+                  rounded-lg transition duration-200 hover:bg-indigo-600 ease">
+            Load Resume <BsFiletypePdf className="ml-3 w-6 h-6" />
+          </a>
+        </div>
+
         <div
           className="flex flex-col items-center justify-between pt-0 pr-10 pb-0 pl-10 mt-0 mr-auto mb-0 ml-auto max-w-7xl
       xl:px-5 lg:flex-row">
