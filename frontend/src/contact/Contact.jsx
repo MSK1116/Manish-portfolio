@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <div name="contact" className="bg-white relative lg:py-20">
-        <div className="flex justify-center items-center">
+        <div data-aos="fade-up" className="flex justify-center items-center">
           <a
             target="blank"
             href={pdf}
