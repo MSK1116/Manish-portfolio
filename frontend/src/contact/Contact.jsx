@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BsFiletypePdf } from "react-icons/bs";
-import pdf from "/manishcs3.pdf";
+import pdf from "/Manish Singh Mahato (CV-3).pdf";
 import Aos from "aos";
 import Svg_study_time from "../SVG/Svg_study_time";
 
