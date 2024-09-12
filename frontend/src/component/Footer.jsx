@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer data-aos="fade-up" className="bg-gray-100">
+      <footer data-aos="fade-up" className=" max-w-screen-2xl  bg-gray-100">
         <div data-aos="fade-up" data-aos-duration="1000" className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
             <Link to="Home" duration={900} offset={-70} activeClass="active" smooth={true}>

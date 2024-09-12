@@ -10,7 +10,7 @@ const Contact = () => {
   }, []);
   return (
     <>
-      <div name="contact" className="bg-white relative lg:py-20">
+      <div name="contact" className=" max-w-screen-2xl overflow-hidden bg-white relative lg:py-20">
         <div data-aos="fade-up" className="flex justify-center items-center">
           <a
             target="blank"

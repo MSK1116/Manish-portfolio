@@ -9,12 +9,19 @@ import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
 import { ReactTyped } from "react-typed";
-import img1 from "../../public/JPG_manish_High.png";
-import img2 from "../../public/JPG_manish_Low.png";
-import img3 from "../../public/IMG_20240721_184859.png";
-import img4 from "../../public/MSK.jpg";
+import img1 from "/JPG_manish_High.png";
+import img2 from "/JPG_manish_Low.png";
+import img3 from "/IMG_20240721_184859.png";
+import img4 from "/MSK.jpg";
+
+import { motion } from "framer-motion";
+import { LampContainer } from "../component/Lamp";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import { Meteors } from "../component/Metores";
+import { FlipWords } from "../component/FlipWords";
 
 // checking comment
 
@@ -23,16 +30,23 @@ const Home_banner = () => {
     Aos.init();
     Aos.refresh();
   }, []);
+  const words = ["better", "cute", "beautiful", "modern"];
   return (
     <>
       <div name="Home" className="max-w-screen-2xl container px-4 md:px-20 mt-20 h-screen ">
-        <div className="flex flex-col  md:flex-row">
+        <div className="flex overflow-hidden flex-col  md:flex-row">
+          <span className=" hidden md:block">
+            <Meteors />
+          </span>
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome to my small world!</span>
             <div className="flex gap-x-1 text-2xl  md:text-4xl">
               <h1>Hello, i'm a</h1>
               {/* <span className=" text-blue-800 font-bold">Devloper</span> */}
-              <ReactTyped className=" text-blue-800 font-bold" strings={["Student.", "Devloper.", "Social Activist.", "Photographer."]} typeSpeed={40} backSpeed={50} loop={true} />
+              <p className=" text-blue-800 font-bold">
+                <FlipWords words={["Student.", "Devloper.", "Social Activist.", "Photographer."]} />
+              </p>
+              {/* <ReactTyped  strings= typeSpeed={40} backSpeed={50} loop={true} /> */}
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
