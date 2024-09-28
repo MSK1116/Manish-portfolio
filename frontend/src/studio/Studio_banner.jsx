@@ -16,7 +16,7 @@ const Studio_banner = () => {
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.9}>
             <div className="p-8 mt-36 text-2xl text-blue-700 capitalize  h-screen font-extrabold flex justify-center   " id="text">
-              <span> Where i click world</span>
+              <span> Where i capture world</span>
             </div>
           </ParallaxLayer>
         </Parallax>
