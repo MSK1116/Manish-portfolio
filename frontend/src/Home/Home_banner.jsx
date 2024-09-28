@@ -14,26 +14,16 @@ import img2 from "/JPG_manish_Low.png";
 import img3 from "/IMG_20240721_184859.png";
 import img4 from "/MSK.jpg";
 
-import { motion } from "framer-motion";
-import { LampContainer } from "../component/Lamp";
-
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 import { Meteors } from "../component/Metores";
 import { FlipWords } from "../component/FlipWords";
 
 // checking comment
 
 const Home_banner = () => {
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  }, []);
   const words = ["better", "cute", "beautiful", "modern"];
   return (
     <>
-      <div name="Home" className="max-w-screen-2xl container px-4 md:px-20 mt-20 h-screen ">
+      <div data-aos="fade-right" data-aos-duration="700" name="Home" className="max-w-screen-2xl container px-4 md:px-20 mt-20 h-screen ">
         <div className="flex overflow-hidden flex-col  md:flex-row">
           <span className=" hidden md:block">
             <Meteors />

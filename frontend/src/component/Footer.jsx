@@ -1,16 +1,12 @@
 import React, { useEffect } from "react";
 import { FaGithubAlt, FaHandHoldingHeart } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-import Aos from "aos";
+
 import "animate.css";
 import { Link } from "react-scroll";
 import { ReactTyped } from "react-typed";
 
 const Footer = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <>
       <footer data-aos="fade-up" className=" max-w-screen-2xl  bg-gray-100">

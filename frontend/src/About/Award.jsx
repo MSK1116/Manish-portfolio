@@ -3,11 +3,8 @@ import { GiPodiumSecond } from "react-icons/gi";
 import { FaHandsBubbles } from "react-icons/fa6";
 import Svg_Award from "../SVG/Svg_Award";
 import { FaMicrophoneAlt } from "react-icons/fa";
-import Aos from "aos";
+
 const Award = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <>
       <section name="award" className="relative pt-16 bg-blueGray-50">

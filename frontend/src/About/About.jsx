@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import Svg_computer_scientist from "../SVG/Svg_computer_scientist";
 import { IoSchoolSharp } from "react-icons/io5";
-import Aos from "aos";
+
 import { MdWork } from "react-icons/md";
 import Award from "./Award";
 const About = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <>
       <div name="About" className="max-w-screen-2xl container px-4 md:px-20 my-20">

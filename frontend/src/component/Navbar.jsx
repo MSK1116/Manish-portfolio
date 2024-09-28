@@ -5,8 +5,10 @@ import { MdOutlineMenu } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Navbar = ({ sectionRef }) => {
+  const navigate = useNavigate();
   const [sticky, setSticky] = useState(false);
 
   const [menu, setMenu] = useState(false);
@@ -45,10 +47,8 @@ const Navbar = ({ sectionRef }) => {
           Contact
         </Link>
       </li>
-      <li className="hover:scale-105  transition-all duration-200 cursor-pointer">
-        <Link to="project" smooth={true} duration={500} offset={-70} activeClass="active">
-          Wall
-        </Link>
+      <li onClick={() => navigate("/studio")} className="hover:scale-105 text-red-600  transition-all duration-200 cursor-pointer">
+        Studio
       </li>
     </>
   );

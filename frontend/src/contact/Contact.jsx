@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import { BsFiletypePdf } from "react-icons/bs";
 import pdf from "/Manish Singh Mahato (CV-3).pdf";
-import Aos from "aos";
+
 import Svg_study_time from "../SVG/Svg_study_time";
 
 const Contact = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <>
       <div name="contact" className=" max-w-screen-2xl overflow-hidden bg-white relative lg:py-20">
